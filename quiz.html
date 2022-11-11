@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="UTF-8">
+    <title>Autonomous Vehicles</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="side">
+        <a href="index.html">Autonomous Vehicles</a>
+      </div>
+      <div class="linkscontainer">
+        <ul class="navlinks">
+          <li class="link active">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="link active">
+            <a href="history.html">History</a>
+          </li>
+          <li class="link active">
+            <a href="heat_levels.html">Levels</a>
+          </li>
+          <li class="link active">
+            <a href="technologicaladvances.html">Technological Advances</a>
+          </li>
+          <li class="link active">
+            <a href="form.html">For more information</a>
+          </li>
+          <li class="link active">
+            <a href="quiz.html" class="active"
+			>Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <header>
+        <h1>Autonomous Vehicles</h1>
+        <h2>
+          The quiz below will test you on five questions. They are all from the information provided on this website. 
+		  You are required to click the start/continue button to begin and advance to the next question.
+        </h2>
+      </header>
+
+<div id="test">
+<title>test yourself</title>
+    <link href="css/quiz.css" media="screen" rel="stylesheet" type="text/css"/>
+    <script src="js/quiz.js"></script>
+	
+	<h1>Test yourself</h1>
+	<p class="p_style">Asking question <span id="NumberAsked">1</span> of 5 with <span id="NumberCorrect">0</span> answers correct</p>
+
+	<p class="p_style"><span id="TriviaQuestion">???</span></p>
+
+	<p class="p_style">	
+		<input id="RadioTrue"  type="radio" value="true"  name="answer" checked="checked" /> True
+		<input id="RadioFalse" type="radio" value="false" name="answer" /> False</p>
+
+    <p><input id="ButtonContinue" onclick="checkAnswer();" type="button" value="Start/Continue" class="button_style" /></p></div>
+</body>
+
+</html>

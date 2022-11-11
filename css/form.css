@@ -1,0 +1,12 @@
+label {
+	float: left;
+	width: 200px;
+}
+
+#submit {
+	margin-left: 200px;
+}
+
+#fieldset {
+	width:500px;
+}

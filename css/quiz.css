@@ -1,0 +1,17 @@
+body {
+	text-align:center;
+	background-image: url("../images/quiz.jfif");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.button_style {
+	cursor:pointer; 
+	margin-left:10px; 
+	font-size:18px;
+}
+
+.p_style {
+	font-weight:bold; 
+	font-size:18px;
+}

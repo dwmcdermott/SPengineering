@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+<title>Autonomous Vehicles</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="side">
+        <a href="form.html">Autonomous Vehicles</a>
+      </div>
+      <div class="linkscontainer">
+        <ul class="navlinks">
+          <li class="link active">
+            <a href="index.html" >Home</a>
+          </li>
+          <li class="link active">
+            <a href="history.html">History</a>
+          </li>
+          <li class="link active">
+            <a href="heat_levels.html">Levels</a>
+          </li>
+          <li class="link active">
+            <a href="technologicaladvances.html">Technological Advances</a>
+          </li>
+          <li class="link active">
+            <a href="form.html" class="active"
+			>For more information</a>
+          </li>
+          <li class="link active">
+            <a href="quiz.html">Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+
+	<div id="intro" class="box">
+		blackform
+
+		<title>Form Validation</title>
+		<link rel="stylesheet" type="text/css" href="css/form.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/form.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+    <script src="js/form2.js"></script>
+	</div>
+
+	<div id="form">
+		<h1>For more information on Home Automation please complete the following form</h1>
+		<form action="#" method="post" id="task1" onSubmit="return validate(event)">
+		<div id="form-error-text" class="error-text">
+			There was a problem. Please correct the errors below.
+		</div>
+		<fieldset id="fieldset">
+			<div class="row">	<label for="surname">Surname</label>
+				<div><input type="text" name="surname" id="surname"><div id="surname-error-text" class="error-text"></div></div></div>
+			<div class="row">	<label for="forename">Forename</label>
+				<div><input type="text" name="forename" id="forename"><div id="forename-error-text" class="error-text"></div></div></div>
+			<div class="row">	<label for="location">Location</label>
+				<div><input type="text" name="location" id="location"><div id="location-error-text" class="error-text"></div></div></div>
+			<div class="row">	<label for="email1">Email Address</label>
+				<div><input type="text" name="email1" id="email1"><div id="email1-error-text" class="error-text"></div></div></div>
+			<div class="row">	<label for="email2">Repeat Email Address</label>
+				<div><input type="text" name="email2" id="email2"><div id="email2-error-text" class="error-text"></div></div></div>
+			<input type="submit" id="submit" value="Submit" onclick="Submitdata()"/><br/>
+      
+		</fieldset>
+		</form>
+	</div>
+	<div id="thank-you">
+		<h1>Thank You!</h1>
+		<p>The form was successfully submitted.</p>
+	</div>
+</body>
+</html>
